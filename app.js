@@ -20,7 +20,6 @@ http
         'Content-Type' : 'text/html'
     })
     const url = req.url
-    
 
     switch(url) {
         case '/about':
