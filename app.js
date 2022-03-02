@@ -21,7 +21,6 @@ http
     })
     const url = req.url
 
-
     switch(url) {
         case '/about':
             renderHTML('./about.html', res)
